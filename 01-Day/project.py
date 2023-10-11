@@ -10,4 +10,5 @@ print("--- Welcome to the Band Name Generator ---")
 city_name = input("Insert the city where you grew up in:\n")
 pet_name = input("Insert the name of you lovely pet:\n")
 
-print("The name of your Rock Band is: ", city_name, pet_name)
+print("The name of your Rock Band is:", city_name, pet_name)
+print(f"The name of your Rock Band is: {city_name} {pet_name}")
